@@ -1,7 +1,12 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 #wrapper{
     height: 100vh;
@@ -95,4 +100,42 @@ section{
     transform: translateX(-40%) translateY(-50%);
     font-size: 3.5rem;
     font-weight: 600;
+}
+
+
+@media (max-width:400px){
+    h1{
+        position: absolute;
+        font-size:3rem ;
+        top: 6rem;
+       margin-left:2rem ;
+        
+        color: #ffffff;
+        text-shadow:0 0 10px rgba(0, 0, 0, .3);
+    }
+    .secHeading{
+        font-size: 4rem;
+        text-align: center;
+        padding: 1rem 1rem;
+        color: #ffffff;
+    }
+    .text{
+        font-size:1.5rem ;
+        padding: 0 1rem;
+        margin: 5rem 0;
+        line-height: 2rem;
+        color: #ffffff;
+    }
+    .desc{
+        position: absolute;
+        left: 45%;
+        top: 10rem;
+        color: #070505;
+        background-color: #ffffff;
+        padding: 0.5rem 2.5rem;
+        transform: translateX(-40%) translateY(-50%);
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    
 }
